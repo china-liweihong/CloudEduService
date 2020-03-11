@@ -41,7 +41,7 @@
     </parent>
 
     <properties>
-        <org.springframework.cloud.version>Hoxton.SR3</org.springframework.cloud.version>
+        <org.springframework.cloud.version>Finchley.SR2</org.springframework.cloud.version>
         <de.codecentric.version>2.0.4</de.codecentric.version>
         <io.zipkin.java.version>2.11.12</io.zipkin.java.version>
 
@@ -201,6 +201,19 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- junit -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.junit.vintage</groupId>
+                        <artifactId>junit-vintage-engine</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
     <build>
@@ -266,6 +279,7 @@
     </profiles>
 
     <modules>
+        <module>service-eureka</module>
     </modules>
 
 </project>
