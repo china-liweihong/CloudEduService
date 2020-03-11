@@ -16,6 +16,6 @@ public class ServiceEurekaApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServiceEurekaApplication.class, args);
 
-        System.out.println("注册中心(server-eureka)启动成功，请接着启动配置中心(server-config)");
+        System.out.println("注册中心(service-eureka)启动成功，请接着启动配置中心(service-config)");
     }
 }
