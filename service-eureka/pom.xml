@@ -6,12 +6,13 @@
     <parent>
         <groupId>com.cloudedu</groupId>
         <artifactId>CloudEduService</artifactId>
-        <version>1.0.0-RELEASE</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>service-eureka</artifactId>
-    <name>eureka-service</name>
+    <name>service-eureka</name>
     <description>SpingCloud统一注册中心</description>
+    <packaging>jar</packaging>
 
     <properties>
         <java.version>1.8</java.version>
