@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.cloudedu.serviceeurekaslave2.ServiceEurekaSlave2Applicat
+ ion
+

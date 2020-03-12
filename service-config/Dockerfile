@@ -6,4 +6,4 @@ ADD /target/service-config.jar app.jar
 # 指定docker容器启动时运行jar包
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
 # 声明服务运行在5761端口
-EXPOSE 1002
+EXPOSE 8001
