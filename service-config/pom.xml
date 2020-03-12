@@ -10,6 +10,8 @@
     </parent>
 
     <artifactId>service-config</artifactId>
+    <description>springcloud微服务配置中心</description>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
