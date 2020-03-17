@@ -275,7 +275,10 @@
 
     <modules>
         <module>service-eureka</module>
+        <module>service-eureka-slave1</module>
+        <module>service-eureka-slave2</module>
         <module>service-config</module>
+        <module>service-monitor</module>
     </modules>
 
 </project>
