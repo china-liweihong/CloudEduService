@@ -1,0 +1,2 @@
+在线培训平台
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
