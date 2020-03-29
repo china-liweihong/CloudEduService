@@ -278,12 +278,17 @@
     </profiles>
 
     <modules>
+        <!-- 注册中心 -->
         <module>service-eureka</module>
         <module>service-eureka-slave1</module>
         <module>service-eureka-slave2</module>
+        <!-- 配置中心 -->
         <module>service-config</module>
+        <!-- 监控中心 -->
         <module>service-monitor</module>
+        <!-- 网关接口 -->
         <module>service-gateway</module>
+        <!-- 公用工具 -->
         <module>service-util</module>
     </modules>
 
